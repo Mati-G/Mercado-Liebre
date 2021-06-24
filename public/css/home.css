@@ -1,0 +1,116 @@
+.home{
+    background-color:#ebebeb;
+}
+.home header{
+    background-color: var(--color-amarillo);
+}
+/*search*/
+.home img#logo{
+    width: 150px;
+    margin: 30px;
+}
+.home #search{
+    display: block;
+    color: var(--color-gris-claro);
+}
+.home #search{
+    margin-left: 20px;
+}
+
+/*Cuotas*/
+.home #cuotas{
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 800;
+}
+
+/*Menu*/
+.home nav ul{
+    margin-bottom: 20px;
+}
+.home nav li{
+    list-style: none;
+}
+.home nav li a{
+    color: black;
+    font-weight: 600;
+}
+.home .burger-menu {
+  display: flex;
+  justify-content: center;
+}
+.home .burger-menu i{
+   width: 15px;
+   padding: 10px;
+   margin-bottom: 20px;
+   color: white;
+   background-color: var(--color-celeste);
+}
+.home h3{
+    font-size: 24px;
+    
+}
+.home p{
+    font-size: 12px;
+}
+.home .precio{
+    font-size: 18px;
+}
+.home .descuentos{
+    font-size: 16px;
+}
+.home main .detail-product h4{
+    font-size: 16px;
+}
+
+/*Footer*/
+.home footer article{
+   text-align: center;
+   margin: 30px;
+   color: var(--color-azul);
+}
+.home footer p {
+    color: var(--color-azul);
+}
+.home footer article i{
+    color: var(--color-celeste);
+    width: 2em;
+    margin-bottom: 10px;
+}
+
+/*Diseño Adaptativo*/
+.home main{
+    margin: 5%; 
+    width: 90%; 
+}
+.home main article{
+    margin-bottom: 10px;
+    background-color: white;
+}
+.home main article .detail-product{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    
+}
+.home main .detail-product h4, .home nav ul{
+    display: none;
+}
+
+/*mobile*/
+@media (min-width:361px){
+   
+    .home main .detail-product h4, .home nav ul{
+        display:block;
+    }
+    .home .burger-menu i{
+        display: none;
+    }
+
+    .home main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+
+
+
